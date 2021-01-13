@@ -1,0 +1,43 @@
+body{
+    font-size: 16px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+	
+}
+.closebtn {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 25px;
+    /* margin-left: 50px; */
+  }
+
+.rounded{
+    border-radius: 10px !important;
+}
+
+.fa-circle{
+    font-size: 13px;
+}
+
+/*.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}*/
+
+input[type="file"] {
+    display: none;
+}
